@@ -84,19 +84,16 @@ inquirer.prompt([
 ]).then(({title, Installation, Usage, Contributions, Tests, Licensing}) => {
     const generateReadme = `# ${title} 
 
-# How to install the application 
+## How to install the application 
 ${Installation}
 
-# Use Cases 
-${Usage}
-
-# Contributions 
+## Contributions 
 ${Contributions}
 
-# Tests #
+## Tests 
 ${Tests}
 
-# Licensing information 
+## Licensing information 
 ${Licensing}
 
 `;
