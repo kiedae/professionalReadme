@@ -3,7 +3,7 @@ const fs = require('fs');
 const { title } = require('process');
 
 
-inquirer.createPromptModule([
+inquirer.prompt([
     { 
         type: 'input',
         message: "Please choose a title for the Readme",
@@ -81,5 +81,31 @@ inquirer.createPromptModule([
             }
         }
     },
-]).then((title, Installation, Usage, Contributions, Tests, Licensing) =>
-)
+]).then(({title, Installation, Usage, Contributions, Tests, Licensing}) => {
+    const generateReadme = `# ${title} 
+
+# How to install the application 
+${Installation}
+
+# Use Cases 
+${Usage}
+
+# Contributions 
+${Contributions}
+
+# Tests #
+${Tests}
+
+# Licensing information 
+${Licensing}
+
+`;
+
+    fs.writeFile('./README.md', generateReadme, (err) => {
+        if (err) {
+            console.error(err);
+        } else {
+            console.log('Readme Created');
+        }
+    });
+});
