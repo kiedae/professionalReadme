@@ -114,8 +114,8 @@ inquirer.prompt([
         }
     },
 ]).then(({title, Installation, Usage, Contributions, Tests, License, Github, gitlink, email}) => {
-    const generateReadme = `# ${title} 
-    ![Github All Releases](https://img.shields.io/badge/license-${License}-yellowgreen.svg) ![Github All Releases](https://img.shields.io/badge/git_hub-${Github}-blue)
+const generateReadme = `# ${title} 
+![Github All Releases](https://img.shields.io/badge/license-${License}-yellowgreen.svg) ![Github All Releases](https://img.shields.io/badge/git_hub-${Github}-blue)
 ## How to Use
 ${Usage}
 
