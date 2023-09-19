@@ -14,3 +14,10 @@ This is the project's first test, if this README is still in the current applica
     
 # Licensing information 
 MIT LICENSE
+
+
+Link to walkthrough video
+https://drive.google.com/file/d/106k94pgDNI-bJM8Icx7F7CQlQuBjwU8Y/view?usp=sharing
+
+Link to repository
+https://github.com/kiedae/professionalReadme
