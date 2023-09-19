@@ -70,19 +70,54 @@ inquirer.prompt([
     },
 
     {
-        type: 'input',
+        type: 'list',
         message: "What license(s) does the application have?",
-        name: 'Licensing',   
+        choices: ['MIT', 'Apache v2', 'GPL', 'Ecliplse', 'None'],
+        name: 'License', 
+          
+    },
+    
+    {
+        type: 'input',
+        message: "What is your github username?",
+        name: 'Github',   
         validate: (value) => {
             if (value) {
                 return true;
             } else {
-                return 'Please describe how the project should be used.';
+                return 'Please include your github username.';
             }
         }
     },
-]).then(({title, Installation, Usage, Contributions, Tests, Licensing}) => {
+    {
+        type: 'input',
+        message: "Provide a link to your github account",
+        name: 'gitlink',   
+        validate: (value) => {
+            if (value) {
+                return true;
+            } else {
+                return 'Please include your github link.';
+            }
+        }
+    },
+    {
+        type: 'input',
+        message: "What is your email to reach you?",
+        name: 'email',   
+        validate: (value) => {
+            if (value) {
+                return true;
+            } else {
+                return 'Please include your email adress.';
+            }
+        }
+    },
+]).then(({title, Installation, Usage, Contributions, Tests, License, Github, gitlink, email}) => {
     const generateReadme = `# ${title} 
+    <img alt="license-badge" src="https://img.shields.io/badge/git_hub-${Github}-blue"> <img alt="license-badge" src="img.shields.io/badge/license-${License}-yellowgreen.svg">
+## How to Use
+${Usage}
 
 ## How to install the application 
 ${Installation}
@@ -93,8 +128,10 @@ ${Contributions}
 ## Tests 
 ${Tests}
 
-## Licensing information 
-${Licensing}
+## Where to reach me
+${gitlink}
+${email}
+
 
 `;
 

@@ -1,16 +1,19 @@
- ## Professional Readme Generator ##
+# Professional Readme Generator 
+    <img alt="license-badge" src="https://img.shields.io/badge/git_hub-Kiedae-blue"> <img alt="license-badge" src="img.shields.io/badge/license-MIT-yellowgreen.svg">
+## How to Use
+Run the application in the command line interface demo video linked in the repostitory.
 
- # How to install the application #
- To install, first make sure you have Node.JS installed on your machine. Then clone the repository onto your machine.
+## How to install the application 
+Make sure to have Node.JS installed then clone the repo to your compute
 
-# Use Cases #
-Open your command line interface of choice, direct it to the folder containing the application, enter 'node .\index.js' and go through the prompts on the command line.
+## Contributions 
+Ernest Sam Williams Jr. 
 
-# Contributions #
-Ernest Sam Williams JR. is the only contributor to this application.
+## Tests 
+The project ran through many tests to see if the badges were working correctly, and to test the inputs and outputs of the inquirer and fs modules.
 
-# Tests #
-This is the project's first test, if this README is still in the current application, it worked.
-    
-# Licensing information 
-MIT LICENSE
+## Where to reach me
+https:/github.com/kiedae
+ernestwilliams335@gmail.com
+
+
