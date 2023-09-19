@@ -1,6 +1,6 @@
 # Professional Readme Generator 
     
-    <img alt="license-badge" src="img.shields.io/badge/license-MIT-yellowgreen.svg">
+![Github All Releases[(img.shields.io/badge/license-MIT-yellowgreen.svg)
 
 ![Github All Releases](https://img.shields.io/badge/git_hub-Kiedae-blue)
 ## How to Use
