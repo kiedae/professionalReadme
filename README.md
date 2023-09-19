@@ -17,3 +17,18 @@ https:/github.com/kiedae
 ernestwilliams335@gmail.com
 
 
+<<<<<<< HEAD
+=======
+# Tests #
+This is the project's first test, if this README is still in the current application, it worked.
+    
+# Licensing information 
+MIT LICENSE
+
+
+Link to walkthrough video
+https://drive.google.com/file/d/106k94pgDNI-bJM8Icx7F7CQlQuBjwU8Y/view?usp=sharing
+
+Link to repository
+https://github.com/kiedae/professionalReadme
+>>>>>>> 02dc27fb1a99992d57bc0cb3542dd323cb787a2a
