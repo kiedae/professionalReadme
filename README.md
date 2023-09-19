@@ -1,6 +1,8 @@
 # Professional Readme Generator 
-    ![Github All Releases]https://img.shields.io/badge/git_hub-Kiedae-blue
+    
     <img alt="license-badge" src="img.shields.io/badge/license-MIT-yellowgreen.svg">
+
+![Github All Releases]https://img.shields.io/badge/git_hub-Kiedae-blue
 ## How to Use
 The user opens their command line interface and runs the application using 'node .\index.js'
 
