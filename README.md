@@ -1,19 +1,16 @@
 # Professional Readme Generator 
-    
-![Github All Releases](https://img.shields.io/badge/license-MIT-yellowgreen.svg) ![Github All Releases](https://img.shields.io/badge/git_hub-Kiedae-blue)
-
-
+    ![Github All Releases](https://img.shields.io/badge/license-MIT-yellowgreen.svg) ![Github All Releases](https://img.shields.io/badge/git_hub-Kiedae-blue)
 ## How to Use
-The user opens their command line interface and runs the application using 'node .\index.js'
+the user runs the application using 'node .\index.js' in their command line
 
 ## How to install the application 
-Make sure to have node.js installed then clone the repo to your machine
+to install make sure you have node.js installed then clone the repository to your machine
 
 ## Contributions 
-Ernest Sam Williams Jr.
+Ernest Williams Jr
 
 ## Tests 
-One test was to see if the badges worked when linked correctly. The other was to test to see if the prompts came correctly
+The project ran through multiple tests to see how to include badges. It also tested the functionality of the inquirer prompts
 
 ## Where to reach me
 https://github.com/kiedae

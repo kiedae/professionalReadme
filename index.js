@@ -115,7 +115,7 @@ inquirer.prompt([
     },
 ]).then(({title, Installation, Usage, Contributions, Tests, License, Github, gitlink, email}) => {
     const generateReadme = `# ${title} 
-    <img alt="license-badge" src="https://img.shields.io/badge/git_hub-${Github}-blue"> <img alt="license-badge" src="img.shields.io/badge/license-${License}-yellowgreen.svg">
+    ![Github All Releases](https://img.shields.io/badge/license-${License}-yellowgreen.svg) ![Github All Releases](https://img.shields.io/badge/git_hub-${Github}-blue)
 ## How to Use
 ${Usage}
 
